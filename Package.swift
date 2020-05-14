@@ -12,7 +12,7 @@ let package = Package(
        .library(name: "SwiftyMocky", targets: ["SwiftyMocky"]),
    ],
    dependencies: [
-       .package(url: "https://github.com/JohnSundell/ShellOut.git", from: "2.0.0"),
+       .package(url: "https://github.com/ohitsdaniel/ShellOut.git", .branch("fixIOSTarget")),
        .package(url: "https://github.com/tuist/xcodeproj.git", from: "7.1.0"),
        .package(url: "https://github.com/luoxiu/Chalk", .exact("0.0.7")),
        .package(url: "https://github.com/kylef/Commander", .exact("0.9.1")),
@@ -56,7 +56,7 @@ let package = Package(
         .library(name: "SwiftyMocky", targets: ["SwiftyMocky"]),
     ],
     dependencies: [
-       .package(url: "https://github.com/JohnSundell/ShellOut.git", from: "2.0.0"),
+       .package(url: "https://github.com/ohitsdaniel/ShellOut.git", .branch("fixIOSTarget")),
        .package(url: "https://github.com/luoxiu/Chalk", .exact("0.0.7")),
        .package(url: "https://github.com/kylef/Commander", .exact("0.9.1")),
        .package(url: "https://github.com/kylef/PathKit", from: "1.0.0"),

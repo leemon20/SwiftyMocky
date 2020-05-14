@@ -48,11 +48,11 @@
       },
       {
         "package": "ShellOut",
-        "repositoryURL": "https://github.com/JohnSundell/ShellOut.git",
+        "repositoryURL": "https://github.com/ohitsdaniel/ShellOut.git",
         "state": {
-          "branch": null,
-          "revision": "e1577acf2b6e90086d01a6d5e2b8efdaae033568",
-          "version": "2.3.0"
+          "branch": "fixIOSTarget",
+          "revision": "813a7dce905f015ecd5db0438eff219935be2805",
+          "version": null
         }
       },
       {
