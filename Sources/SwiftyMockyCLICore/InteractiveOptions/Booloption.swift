@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import Chalk
 
@@ -32,3 +33,4 @@ public enum BoolOption: RawRepresentable, SelectableOption {
         return select(from: [.yes, .no])
     }
 }
+#endif

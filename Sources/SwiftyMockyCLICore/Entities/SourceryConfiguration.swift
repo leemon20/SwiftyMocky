@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import Yams
 import PathKit
@@ -43,3 +44,4 @@ public extension LegacyConfiguration {
         public var testable: [String]?
     }
 }
+#endif

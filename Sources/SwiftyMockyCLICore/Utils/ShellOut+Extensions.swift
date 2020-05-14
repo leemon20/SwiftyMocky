@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 
 #if os(macOS)
@@ -14,4 +15,5 @@ class ProxyFileHandle: FileHandle {
 class ProxyFileHandle {
     // empty for now, waiting for Foundation to have FileHandle on linux
 }
+#endif
 #endif

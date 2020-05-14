@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import PathKit
 
@@ -15,3 +16,4 @@ public enum MockyError: Swift.Error {
     case writingError
     case overrideWarning
 }
+#endif

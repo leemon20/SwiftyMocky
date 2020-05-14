@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import PathKit
 
@@ -25,3 +26,4 @@ public class InstanceFactoryConcrete: InstanceFactory {
         return GenerationController(root: root, mockfile: mockfile)
     }
 }
+#endif

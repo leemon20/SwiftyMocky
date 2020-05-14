@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import PathKit
 import Commander
@@ -218,3 +219,4 @@ public class Application {
         return data.base64EncodedString()
     }
 }
+#endif

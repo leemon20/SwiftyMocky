@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import Yams
 import PathKit
@@ -124,3 +125,4 @@ private extension PBXTarget {
         }) ?? false
     }
 }
+#endif

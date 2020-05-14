@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import PathKit
 import XcodeProj
@@ -71,3 +72,4 @@ extension PBXFileElement {
         }
     }
 }
+#endif

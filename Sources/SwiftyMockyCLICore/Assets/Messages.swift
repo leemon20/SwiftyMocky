@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 
 public struct Messages {
@@ -57,3 +58,4 @@ public struct Messages {
         static let overrideWarning = "Already exists. Will not override."
     }
 }
+#endif

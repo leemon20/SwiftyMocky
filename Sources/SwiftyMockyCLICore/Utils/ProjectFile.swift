@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 
 #if os(macOS)
@@ -13,3 +14,4 @@ public protocol ProjectFile {
 public protocol ProjectTarget {
     var name: String { get }
 }
+#endif

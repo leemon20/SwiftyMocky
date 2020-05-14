@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import Yams
 import PathKit
@@ -101,3 +102,4 @@ public extension MockConfiguration {
         }
     }
 }
+#endif

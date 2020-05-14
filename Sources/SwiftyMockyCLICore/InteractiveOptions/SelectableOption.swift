@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 
 public protocol SelectableOption: RawRepresentable {
@@ -24,3 +25,4 @@ public extension SelectableOption where RawValue == String {
         return option!
     }
 }
+#endif

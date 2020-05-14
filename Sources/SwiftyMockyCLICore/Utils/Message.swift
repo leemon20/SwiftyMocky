@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import Chalk
 
@@ -109,3 +110,4 @@ public enum Message {
         print("")
     }
 }
+#endif

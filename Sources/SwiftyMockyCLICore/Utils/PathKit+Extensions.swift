@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import PathKit
 
@@ -31,3 +32,4 @@ extension Path {
         return Path(components: common)
     }
 }
+#endif

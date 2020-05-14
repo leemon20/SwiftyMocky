@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import Yams
 import PathKit
@@ -197,3 +198,4 @@ public class ProjectSetupController {
     }
 
 }
+#endif

@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import ShellOut
 import PathKit
@@ -312,3 +313,4 @@ private extension String {
         }
     }
 }
+#endif

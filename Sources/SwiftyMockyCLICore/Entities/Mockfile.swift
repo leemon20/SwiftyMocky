@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import Yams
 import PathKit
@@ -99,3 +100,4 @@ extension KeyedDecodingContainer where K : CodingKey {
         return try decode(T.self, forKey: key)
     }
 }
+#endif

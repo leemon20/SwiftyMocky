@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import Yams
 import PathKit
@@ -51,3 +52,4 @@ class MockfileInteractor {
         mockfile[dynamicMember: name] = nil
     }
 }
+#endif

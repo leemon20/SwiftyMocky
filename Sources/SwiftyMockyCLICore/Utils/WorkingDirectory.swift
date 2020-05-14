@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import PathKit
 import Yams
@@ -45,3 +46,4 @@ class WorkingDirectory {
         try? path.delete()
     }
 }
+#endif

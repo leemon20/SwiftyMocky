@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import Commander
 import PathKit
@@ -90,3 +91,4 @@ Group() { main in
     #endif
 }
 .run()
+#endif

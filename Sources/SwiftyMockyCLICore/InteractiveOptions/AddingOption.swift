@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import Chalk
 
@@ -62,3 +63,4 @@ enum AddingOption: RawRepresentable, SelectableOption {
         }
     }
 }
+#endif

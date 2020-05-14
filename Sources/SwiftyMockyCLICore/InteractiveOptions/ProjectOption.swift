@@ -1,3 +1,4 @@
+#if os(macOS) || os(Linux)
 import Foundation
 import Chalk
 import PathKit
@@ -73,3 +74,4 @@ private extension Path {
         return string.hasSuffix("/") ? Path(String(string.dropLast())) : self
     }
 }
+#endif
